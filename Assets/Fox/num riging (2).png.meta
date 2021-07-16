@@ -1,0 +1,818 @@
+fileFormatVersion: 2
+guid: f7a017127dc87f94195a24c7bbd70f23
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1822121368636398933
+    second: num riging (2)_0
+  - first:
+      213: 7949390244403662960
+    second: num riging (2)_1
+  - first:
+      213: 7673308603965579355
+    second: num riging (2)_2
+  - first:
+      213: -4844473962612439079
+    second: num riging (2)_4
+  - first:
+      213: -664188503878750231
+    second: num riging (2)_5
+  - first:
+      213: -6632607996547597133
+    second: num riging (2)_6
+  - first:
+      213: -5511031098505163162
+    second: num riging (2)_8
+  - first:
+      213: 1873689974849353813
+    second: num riging (2)_10
+  - first:
+      213: -7931453327373847756
+    second: num riging (2)_14
+  - first:
+      213: -8270946909906879786
+    second: num riging (2)_15
+  - first:
+      213: -4307385158732838026
+    second: num riging (2)_17
+  - first:
+      213: 4287372115391633263
+    second: num riging (2)_23
+  - first:
+      213: -3109834427495073117
+    second: num riging (2)_24
+  - first:
+      213: -5153806604115654461
+    second: num riging (2)_26
+  - first:
+      213: 3849785644075516915
+    second: num riging (2)_28
+  - first:
+      213: 319271959024677014
+    second: num riging (2)_30
+  - first:
+      213: 8361896150786447608
+    second: num riging (2)_32
+  - first:
+      213: 4167827511076128492
+    second: num riging (2)_36
+  - first:
+      213: -2355710375775307837
+    second: num riging (2)_39
+  - first:
+      213: -5927499487268031380
+    second: num riging (2)_42
+  - first:
+      213: -5152715205816213963
+    second: num riging (2)_45
+  - first:
+      213: 860897107395101338
+    second: num riging (2)_47
+  - first:
+      213: 7446416583203045152
+    second: num riging (2)_48
+  - first:
+      213: -5143665755133797705
+    second: num riging (2)_50
+  - first:
+      213: 4698818424143734274
+    second: num riging (2)_52
+  - first:
+      213: -8589714474995480379
+    second: num riging (2)_54
+  - first:
+      213: 1735226527108689560
+    second: num riging (2)_55
+  - first:
+      213: -4806333782012536009
+    second: num riging (2)_7
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: num riging (2)_0
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 4721
+        width: 371
+        height: 588
+      alignment: 9
+      pivot: {x: 0.70406735, y: 0.75036037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0544ed4c99f0f5f41a7862abb07407cd
+      internalID: -1822121368636398933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_1
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 4710
+        width: 335
+        height: 605
+      alignment: 9
+      pivot: {x: 0.67577577, y: 0.71551687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2713315c412824280b447111b2c90c
+      internalID: 7949390244403662960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_2
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 4617
+        width: 527
+        height: 626
+      alignment: 9
+      pivot: {x: 0.843189, y: 0.38577807}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adc573d0fdf83742ade18cb58711ef3
+      internalID: 7673308603965579355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_4
+      rect:
+        serializedVersion: 2
+        x: 3046
+        y: 4633
+        width: 307
+        height: 571
+      alignment: 9
+      pivot: {x: 0.19858812, y: 0.3895082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed461f54b9cb954a9ab479adbdbb356
+      internalID: -4844473962612439079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_5
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 3848
+        width: 371
+        height: 596
+      alignment: 9
+      pivot: {x: 0.2505843, y: 0.8669712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c496e32983e72e14c90e10b23575bb6a
+      internalID: -664188503878750231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_6
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 3878
+        width: 348
+        height: 604
+      alignment: 9
+      pivot: {x: 0.294532, y: 0.855147}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02c7b7dbaebd314c964b31e215ed0d2
+      internalID: -6632607996547597133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_8
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 3199
+        width: 579
+        height: 997
+      alignment: 9
+      pivot: {x: 0.28933364, y: 0.820622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e9c2ab88ea2ed41b92d64069138198
+      internalID: -5511031098505163162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_10
+      rect:
+        serializedVersion: 2
+        x: 4398
+        y: 3402
+        width: 411
+        height: 802
+      alignment: 9
+      pivot: {x: 0.6209928, y: 0.22204286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cbbe28a73d205429184dea41988f75
+      internalID: 1873689974849353813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_14
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 3429
+        width: 195
+        height: 99
+      alignment: 9
+      pivot: {x: 0.15488751, y: 0.5424854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2b33fc0c9f36642834ad3072202342
+      internalID: -7931453327373847756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_15
+      rect:
+        serializedVersion: 2
+        x: 3034
+        y: 3362
+        width: 206
+        height: 553
+      alignment: 9
+      pivot: {x: 0.112062916, y: 0.7509942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929ada729b36ccb4bae10a79d7797f85
+      internalID: -8270946909906879786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_17
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 3397
+        width: 194
+        height: 98
+      alignment: 9
+      pivot: {x: 0.21815114, y: 0.5429189}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde6a0c710e56bf41844f05d9f0d1f53
+      internalID: -4307385158732838026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_23
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1991
+        width: 1135
+        height: 1239
+      alignment: 9
+      pivot: {x: 0.63077503, y: 0.33707446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1542f795e6c2edf41952d8012602a522
+      internalID: 4287372115391633263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_24
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 1960
+        width: 1419
+        height: 984
+      alignment: 9
+      pivot: {x: 0.6924671, y: 0.5120673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa2f613660a99b48af494087375ae61
+      internalID: -3109834427495073117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_26
+      rect:
+        serializedVersion: 2
+        x: 2767
+        y: 1999
+        width: 1393
+        height: 1147
+      alignment: 9
+      pivot: {x: 0.7685161, y: 0.7795189}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a1e1496984bb348a6c6fd71692fb6b
+      internalID: -5153806604115654461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_28
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1130
+        width: 415
+        height: 699
+      alignment: 9
+      pivot: {x: 0.48569322, y: 0.6019261}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c24284a3cc70148a8870460c22a195
+      internalID: 3849785644075516915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_30
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 1172
+        width: 417
+        height: 698
+      alignment: 9
+      pivot: {x: 0.4430482, y: 0.60207176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85f15209c8e02342862ba8c280ee56e
+      internalID: 319271959024677014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_32
+      rect:
+        serializedVersion: 2
+        x: 4126
+        y: 1326
+        width: 713
+        height: 907
+      alignment: 9
+      pivot: {x: 0.35843953, y: 0.4279944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5352d67fc780ece4e97d31ce1c369dce
+      internalID: 8361896150786447608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_36
+      rect:
+        serializedVersion: 2
+        x: 4021
+        y: 184
+        width: 846
+        height: 1071
+      alignment: 9
+      pivot: {x: 0.7666812, y: 0.8270721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1617be85f34e657419ffdb46e67ae0d5
+      internalID: 4167827511076128492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_39
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 253
+        width: 889
+        height: 862
+      alignment: 9
+      pivot: {x: 0.7203903, y: 0.48622438}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d45dc1c089ead49be37cae333165ac
+      internalID: -2355710375775307837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_42
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 722
+        width: 471
+        height: 296
+      alignment: 9
+      pivot: {x: 0.6008437, y: 0.7206384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2c8dcbe8cb6d840944cea7d57c0177
+      internalID: -5927499487268031380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_45
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 749
+        width: 472
+        height: 298
+      alignment: 9
+      pivot: {x: 0.56289417, y: 0.6793113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62dc39807d28c34f9e2d865d048f6e1
+      internalID: -5152715205816213963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_47
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 288
+        width: 287
+        height: 303
+      alignment: 9
+      pivot: {x: 0.3345036, y: 0.79392076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ddd54e44f4f474285f3fb4831fa307
+      internalID: 860897107395101338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_48
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 334
+        width: 289
+        height: 304
+      alignment: 9
+      pivot: {x: 0.29456073, y: 0.8320142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21065abbe0dbca044b3ce70f0de46e5f
+      internalID: 7446416583203045152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_50
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 327
+        width: 539
+        height: 548
+      alignment: 9
+      pivot: {x: 0.7203041, y: 0.52166826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3806a389022776c45a04fd5a7fe5da47
+      internalID: -5143665755133797705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_52
+      rect:
+        serializedVersion: 2
+        x: 4017
+        y: 306
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadb9dcb6544af34f9d543f0c9595b86
+      internalID: 4698818424143734274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_54
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 78
+        width: 271
+        height: 109
+      alignment: 9
+      pivot: {x: 0.2370986, y: 0.5000004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36354a37c9787bd44bce4d28cbbf9790
+      internalID: -8589714474995480379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: num riging (2)_55
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 113
+        width: 271
+        height: 110
+      alignment: 9
+      pivot: {x: 0.21518923, y: 0.5539745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4252381a0b1f23643a21ba556e439446
+      internalID: 1735226527108689560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b1ffde162c7fc5146976b1a5986b9515
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

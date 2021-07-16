@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7914703941342816798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7914703941342816792}
+  - component: {fileID: 7914703941342816799}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7914703941342816792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7914703941342816798}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7914703941342816799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7914703941342816798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e1777c07919f814abb0e6af073539dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MarioDeath
+    clip: {fileID: 8300000, guid: d1092d1e0ccb688499456b0e4f45d48d, type: 3}
+    volume: 0.53
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: f00efd1b98d945047bee81396ee53e5b, type: 3}
+    volume: 0.47
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Coin
+    clip: {fileID: 8300000, guid: 16a2eececa3b9214d9e783e23ea4e4a8, type: 3}
+    volume: 0.47
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Pause
+    clip: {fileID: 8300000, guid: c2d1c324776753a448522ccc7483adae, type: 3}
+    volume: 0.47
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PowerUpAppears
+    clip: {fileID: 8300000, guid: ab344e6b30770b3449ed0777e8f953fb, type: 3}
+    volume: 0.47
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PowerUp
+    clip: {fileID: 8300000, guid: 63841f3117e8c404b808d7509d0632bf, type: 3}
+    volume: 0.47
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Bump
+    clip: {fileID: 8300000, guid: 9e43b8fe495ea72418d5c595a038ea11, type: 3}
+    volume: 0.47
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BreakBlock
+    clip: {fileID: 8300000, guid: bb972e6b910548742bca60a62c928685, type: 3}
+    volume: 0.47
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Stomp
+    clip: {fileID: 8300000, guid: 904dd01a1f3ba0b40b5ce4b5d68c60de, type: 3}
+    volume: 0.47
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Kick
+    clip: {fileID: 8300000, guid: 56c45dddce784ed429333ef33f0bd471, type: 3}
+    volume: 0.47
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Pipe
+    clip: {fileID: 8300000, guid: 0a82002be6b5fae499fb28c6067ce1f5, type: 3}
+    volume: 0.47
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: 1Up
+    clip: {fileID: 8300000, guid: f44badd468dcb634ca5eeac9d7c298a2, type: 3}
+    volume: 0.47
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SuperJump
+    clip: {fileID: 8300000, guid: b2e5063422ed9344bba6172cbee2ac2b, type: 3}
+    volume: 0.47
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: UnderWorldTheme
+    clip: {fileID: 8300000, guid: 0a9ec00bb3dbdaf49b952196338ccd3c, type: 3}
+    volume: 0.47
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: HurryMainTheme
+    clip: {fileID: 8300000, guid: a6df8e4794f50db41bfcf4b0ec29f8ca, type: 3}
+    volume: 0.47
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FlagPole
+    clip: {fileID: 8300000, guid: 38d3d62a589da9e4e9431c8b68d933e8, type: 3}
+    volume: 0.47
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: StageClear
+    clip: {fileID: 8300000, guid: a4cb342de0f95c54ca730dd0cf09e4c9, type: 3}
+    volume: 0.47
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FireBall
+    clip: {fileID: 8300000, guid: 0c13c0c9a861342459f8db70611a846a, type: 3}
+    volume: 0.47
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
