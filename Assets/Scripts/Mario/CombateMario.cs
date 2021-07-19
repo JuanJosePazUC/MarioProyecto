@@ -44,8 +44,16 @@ public class CombateMario : MonoBehaviour
     }
 
     private IEnumerator Death(){
-        yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if(score.vidas < 0){
+            yield return new WaitForSeconds(3f);
+            FindObjectOfType<AudioManager>().Play("GameOver");
+            yield return new WaitForSeconds(4f);
+            SceneManager.LoadScene("Menu");
+        }else{
+            yield return new WaitForSeconds(3f);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        
     }
 
 }
