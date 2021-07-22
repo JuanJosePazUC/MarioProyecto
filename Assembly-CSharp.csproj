@@ -90,6 +90,9 @@
      <Compile Include="Assets\Scripts\Enemigos\PatrolPlatform.cs" />
      <Compile Include="Assets\UI\Timer.cs" />
      <Compile Include="Assets\Scripts\Mario\ChangeMario.cs" />
+     <Compile Include="Assets\Scripts\PlataformaMovil.cs" />
+     <Compile Include="Assets\Scripts\GeneradorPlataforma.cs" />
+     <Compile Include="Assets\PiranaPlant.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
@@ -331,16 +334,25 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/PackageCache/com.unity.analytics@3.5.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/PackageCache/com.unity.analytics@3.5.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Editor.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Tracker.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="clipper_library">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/PackageCache/com.unity.cinemachine@2.7.1/Runtime/ThirdParty/clipper_library.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/PackageCache/com.unity.cinemachine@2.7.1/Runtime/ThirdParty/clipper_library.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+        <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -688,64 +700,64 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Monetization">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Analytics">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/ScriptAssemblies/Analytics.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/ScriptAssemblies/Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-        <HintPath>E:/Videojuegos/Mario2D/MarioProyecto/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+        <HintPath>D:/Archivos/Juan/ProyectoDesarrollo/MarioProyecto/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
